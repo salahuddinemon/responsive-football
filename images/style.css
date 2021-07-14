@@ -4,8 +4,15 @@ body{
 /* header style
 ------------------- */
 header {
-    background: url(header-background.png);
-    width: 1440px;
+    background-image: url(header-background.png);
+    width: 1500px;
+    height: 677px;
+    transition: background-image 2s linear;
+}
+header:hover{
+    background-image: url(players/back-image.png);
+    background-repeat: no-repeat;
+    width: 1500px;
     height: 677px;
 }
 .header-info{
@@ -24,6 +31,10 @@ header {
     background-color: #E02C6D;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
+    transition: background-color 3s;
+}
+.header-text span:hover{
+    background-color: black;
 }
 .fa-long-arrow-alt-right{
     padding-left: 15px;
@@ -35,6 +46,7 @@ header {
     padding-top: 153px;
     padding-bottom: 86px;
     padding-right: 140px;
+    transition: width 2s;
     
 }
 /* top players styles */
