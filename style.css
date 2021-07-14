@@ -67,17 +67,18 @@ main{
 
 .highlight-section{
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 100px;
 
 }
 .video-details{
-    width: 50px;
-
+    width: 200px;
+    height: 200px;
 }
 .video{
-    width: 50%;
+    width: 200px;
+    height: 200px;
     padding-left: 30px;
 }
 button{
