@@ -1,0 +1,35 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+/* top players styles */
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+}
+.photo-frame{
+    width: 200px;
+    height: 400px;
+    padding: 10px;
+    font-weight:400;
+    font-size: 12px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin: 10px;
+}
+.photo-frame img{
+    width: 100%;
+}
+/* .photo-frame p{
+    padding-bottom: 10px;
+} */
+
+/* footer section */
+.logo-image img{
+    width: 50%;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto 
+}
