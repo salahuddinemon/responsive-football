@@ -6,6 +6,7 @@ body{
 .header-container{
     max-width: 100%;
     background-color: #2D25A0;
+    margin-bottom: 50px;
 }
 .header-info{
     display: grid;
@@ -39,9 +40,9 @@ body{
     margin-top: 153px;
     margin-bottom: 70px;
     margin-right: 80px;
-    transition: transform 5s ease-in;
+    transition: transform 3s ease-in-out;
 }
-.banner-image img{
+.header-container:hover img{
     transform: rotate(360deg);
 }
 /* top players styles */
