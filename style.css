@@ -4,13 +4,13 @@ body{
 /* header style
 ------------------- */
 header {
-    background-image: url(header-background.png);
+    background-image: url(images/header-background.png);
     width: 1500px;
     height: 677px;
     transition: background-image 2s linear;
 }
 header:hover{
-    background-image: url(players/back-image.png);
+    background-image: url(images/players/back-image.png);
     background-repeat: no-repeat;
     width: 1500px;
     height: 677px;
