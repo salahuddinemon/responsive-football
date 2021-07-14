@@ -1,10 +1,47 @@
 body{
     font-family: 'Poppins', sans-serif;
+}
+/* header style
+------------------- */
+header {
+    background: url(header-background.png);
+    width: 1440px;
+    height: 677px;
+}
+.header-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.header-text h1{
+    margin-top: 207px;
+    margin-left: 156px;
+    margin-bottom: 190px;
+    font-size: 4em;
+}
+.header-text span {
+    background-color: #E02C6D;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+}
+.fa-long-arrow-alt-right{
+    padding-left: 15px;
+}
+.banner-image img{
+    position: relative;
+    width: 556px;
+    height: 440px;
+    padding-top: 153px;
+    padding-bottom: 86px;
+    padding-right: 140px;
+    
+}
+/* top players styles */
+main{
     margin-left: 150px;
     margin-right: 150px;
 }
-
-/* top players styles */
 .top-players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
