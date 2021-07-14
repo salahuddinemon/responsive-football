@@ -8,28 +8,43 @@ body{
 .top-players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 15px;
+    grid-column-gap: 30px;
 }
 .photo-frame{
     width: 200px;
     height: 400px;
-    padding: 10px;
+    padding: 15px;
     font-weight:400;
     font-size: 12px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-    margin: 10px;
+    margin-bottom: 27px;
 }
+/* .photo-details p{
+    text-align: justify;
+} */
 .photo-frame img{
     width: 100%;
 }
-/* .photo-frame p{
-    padding-bottom: 10px;
-} */
 
 /* footer section */
-.logo-image img{
+.logo-image img {
     width: 50%;
-    display: block; 
+    display: block;
+    margin-top: 158px;
     margin-left: auto; 
-    margin-right: auto 
+    margin-right: auto;
+    
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+    text-indent: 10px;
+    font-size: 1.4em;
+    margin-top: 20px;
+    margin-bottom: px;
+    /* background-color:burlywood;    */
+}
+.copyright{
+    display: flex;
+    justify-content: center;
 }
