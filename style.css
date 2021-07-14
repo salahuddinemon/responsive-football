@@ -96,3 +96,11 @@ main{
     display: flex;
     justify-content: center;
 }
+/* --------------------
+Media quaries
+-------------------- */
+/* mobile devices
+--------------------- */
+/* @media only screen and (max-width:668px) {
+     
+} */
