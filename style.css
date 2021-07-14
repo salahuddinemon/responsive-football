@@ -7,6 +7,8 @@ body{
     max-width: 100%;
     background-color: #2D25A0;
     margin-bottom: 50px;
+    background-size: cover;
+    
 }
 .header-info{
     display: grid;
@@ -17,7 +19,7 @@ body{
 }
 .header-text h1{
     margin-top: 207px;
-    margin-left: 100px;
+    margin-left: 120px;
     margin-bottom: 100px;
     font-size: 2em;
 }
@@ -37,9 +39,10 @@ body{
     position: relative;
     width: 556px;
     height: 440px;
-    margin-top: 153px;
+    margin-top: 153px ;
     margin-bottom: 70px;
-    margin-right: 80px;
+    margin-right: 75px;
+    margin-left: 5px;
     transition: transform 3s ease-in-out;
 }
 .header-container:hover img{
@@ -125,6 +128,21 @@ Media quaries
 /* mobile devices
 --------------------- */
 @media only screen and (max-width:668px) {
+    .header-container{
+        display: grid;
+        grid-template-columns: 100px;
+        align-items: center;
+    }
+    .header-text{
+        margin-top: 0px;
+        margin-left: 50px;
+        font-weight: 100;
+    }
+    .banner-image img{
+        width: 200px;
+        height: 100px;
+        margin: 0;
+    }
     .top-players{
         grid-template-columns: repeat(1, 1fr);
 
@@ -144,7 +162,8 @@ Media quaries
         
     }
     .copyright{
-        width: 100%;
+        font-size: 7px;
+        text-align: center;
         
     }
     
